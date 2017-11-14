@@ -13,6 +13,15 @@ do
 	done
 done
 
-
+for anho in 2015
+do
+	for mes in Enero Febrero Marzo Abril 
+	do	
+		curl -o Datos_$anho'_'$mes.zip http://www.minetad.gob.es/energia/balances/Publicaciones/ElectricasMensuales/$anho/$mes'_'$anho.zip		
+		unzip Datos_$anho'_'$mes.zip -d datos/
+		mv datos/$mes datos/$mes'_'$anho
+		rm Datos_$anho'_'$mes.zip
+	done
+done
 
 
