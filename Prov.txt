@@ -1,0 +1,52 @@
+01_Andalucía,04_Almería
+01_Andalucía,11_Cádiz
+01_Andalucía,14_Córdoba
+01_Andalucía,18_Granada
+01_Andalucía,21_Huelva
+01_Andalucía,23_Jaén
+01_Andalucía,29_Málaga
+01_Andalucía,41_Sevilla
+02_Aragón,22_Huesca
+02_Aragón,44_Teruel
+02_Aragón,50_Zaragoza
+03_Principado de Asturias,33_Asturias
+04_Illes Balears,07_Illes Balears
+05_Canarias,35_Las Palmas
+05_Canarias,38_Santa Cruz de Tenerife
+06_Cantabria,39	_Cantabria
+07_Castilla y León,05_Ávila
+07_Castilla y León,09_Burgos
+07_Castilla y León,24_León
+07_Castilla y León,34_Palencia
+07_Castilla y León,37_Salamanca
+07_Castilla y León,40_Segovia
+07_Castilla y León,42_Soria
+07_Castilla y León,47_Valladolid
+07_Castilla y León,49_Zamora
+08_Castilla La Mancha,02_Albacete
+08_Castilla La Mancha,13_Ciudad Real
+08_Castilla La Mancha,16_Cuenca
+08_Castilla La Mancha,19_Guadalajara
+08_Castilla La Mancha,45_Toledo
+09_Cataluña,08_Barcelona
+09_Cataluña,17_Girona
+09_Cataluña,25_Lleida
+09_Cataluña,43_Tarragona
+10_Comunitat Valenciana,03_Alicante/Alacant
+10_Comunitat Valenciana,12_Castellón/Castelló
+10_Comunitat Valenciana,46_Valencia/València
+11_Extremadura,06_Badajoz
+11_Extremadura,10_Cáceres
+12_Galicia,15_A Coruña
+12_Galicia,27_Lugo
+12_Galicia,32_Ourense
+12_Galicia,36_Pontevedra
+13_Comunidad de Madrid,28_Madrid
+14_Región de Murcia,30_Murcia
+15_Comunidad Foral de Navarra,31_Navarra
+16_País Vasco,01_Araba/Álava
+16_País Vasco,48_Bizkaia
+16_País Vasco,20_Gipuzkoa
+17_La Rioja,26_La Rioja
+18_Ceuta,51_Ceuta
+19_Melilla,52_Melilla
