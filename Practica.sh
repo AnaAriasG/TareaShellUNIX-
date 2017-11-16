@@ -1,7 +1,7 @@
 IFS=$'\n'
 for line in $(cat Prov.txt)
 do
-	mkdir -p ./$(echo $line| cut -d "," -f 1)/$(echo $line| cut -d "," -f 2)
+	mkdir -p ./$(echo $line| cut -d "," -f 1)"_"$(echo $line| cut -d "," -f 2)/$(echo $line| cut -d "," -f 3)"_"$(echo $line| cut -d "," -f 4) #Creando directorios y subdirectorios
 done
 
 for file in datos/*
