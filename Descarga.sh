@@ -12,27 +12,20 @@ do
 		rm Datos_$anho'_'$mes.zip		
 	done
 done
-
-for anho2 in 2009
-do
-	for mes2 in Enero Febrero Marzo Abril Mayo Junio Julio Agosto Septiembre Octubre Noviembre
+for mes2 in Enero Febrero Marzo Abril Mayo Junio Julio Agosto Septiembre Octubre Noviembre
 	do
-		curl -o Datos_$anho2'_'$mes2.zip http://www.minetad.gob.es/energia/balances/Publicaciones/ElectricasMensuales/$anho2/$mes2'%20'$anho2.zip	#En el 2009 cambia la ruta
-		unzip Datos_$anho2'_'$mes2.zip -d datos/
-		mv datos/$mes2 datos/$mes2'_'$anho2 
-		rm Datos_$anho2'_'$mes2.zip
-	done
+		curl -o Datos_2009_$mes2.zip http://www.minetad.gob.es/energia/balances/Publicaciones/ElectricasMensuales/2009/$mes2'%20'2009.zip	#En el 2009 cambia la ruta
+		unzip Datos_2009_$mes2.zip -d datos/
+		mv datos/$mes2 datos/$mes2'_'2009 
+		rm Datos_2009_$mes2.zip
 done	
 
-for anho3 in 2015
-do
-	for mes3 in Enero Febrero Marzo Abril  #solo 4 meses de 2015
+for mes3 in Enero Febrero Marzo Abril  #solo 4 meses de 2015
 	do	
-		curl -o Datos_$anho3'_'$mes3.zip http://www.minetad.gob.es/energia/balances/Publicaciones/ElectricasMensuales/$anho3/$mes3'_'$anho3.zip		
-		unzip Datos_$anho3'_'$mes3.zip -d datos/
-		mv datos/$mes3 datos/$mes3'_'$anho3
-		rm Datos_$anho3'_'$mes3.zip
-	done
+		curl -o Datos_2015_$mes3.zip http://www.minetad.gob.es/energia/balances/Publicaciones/ElectricasMensuales/2015/$mes3'_'2015.zip		
+		unzip Datos_2015_$mes3.zip -d datos/
+		mv datos/$mes3 datos/$mes3'_'2015
+		rm Datos_2015_$mes3.zip
 done
 
 
