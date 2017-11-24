@@ -1,3 +1,5 @@
+#Cracion de directorios para el posterior volcado de datos, arreglo de fichero para mejorar la extraccion de datos y posterior volcado de datos en el formato que se pide.
+
 IFS=$'\n' #Pongo un salto de linea como delimitador
 
 #Creo directorios y subdirectorios aprovechando la lista de comunidades autonomas y provincias.
