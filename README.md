@@ -5,7 +5,7 @@ La ejecución de cada uno de ellos implica distintos procesos necesarios para al
 el objetivo.
 
 - La ejecucion del fichero "Descarga.sh" implica la descarga de los datos comprimidos
-  y su posterior descompresión ,referentes a las series temporales mensuales de producción
+  y su posterior descompresión, referentes a las series temporales mensuales de producción
   eléctrica pubicadas por el Ministerio de Industria. En concreto se obtendrán los datos 
   de la tabla 1.2.7. PRODUCCION BRUTA DE ENERGIA TERMOELECTRICA POR PROVINCIAS SEGUN EL COMBUSTIBLE
 
