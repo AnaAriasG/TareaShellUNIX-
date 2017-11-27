@@ -27,13 +27,5 @@ for mes2 in Enero Febrero Marzo Abril Mayo Junio Julio Agosto Septiembre Octubre
 		rm Datos_2009_$mes2.zip #Elimino los archivos comprimidos
 done	
 
-# Solo hay datos de Enero a Abril en el año 2015, asi que los descargo por separado en este bucle
-#for mes3 in Enero Febrero Marzo Abril  #solo 4 meses de 2015
-#	do	
-#		curl -o Datos_2015_$mes3.zip http://www.minetad.gob.es/energia/balances/Publicaciones/ElectricasMensuales/2015/$mes3'_'2015.zip		#Descargo los archivos
-#		unzip Datos_2015_$mes3.zip -d datos/ #Descomprimo los archivos
-#		mv datos/$mes3 datos/$mes3'_'2015 #Aquellos archivos que vienen solo con el nombre del mes, los guardo como "mes_año"
-#		rm Datos_2015_$mes3.zip #Elimino los archivos comprimidos
-#done
 
 
